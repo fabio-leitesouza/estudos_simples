@@ -1,0 +1,16 @@
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    var chute = parseInt(prompt("digite um valor"));
+    if(isNaN(chute)){
+        mostra("Não é um número")
+    }else{
+        mostra("É um número")
+    }
+</script>
