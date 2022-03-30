@@ -6,11 +6,11 @@
     //pedindo um pincel no contexto 2d para desenhar
     var pincel = tela.getContext('2d');
     //definir um cor válida
-    pincel.fillStyle = 'lightgrey';
+    pincel.fillStyle = 'white';
     //fill é preencher e rect é retangulo. 
     pincel.fillRect(0, 0, 600, 400);
 
-    pincel.fillStyle = 'green';
+    pincel.fillStyle = 'darkblue';
     pincel.fillRect(0, 0, 200, 400);
 
     pincel.fillStyle = 'red';
@@ -29,7 +29,7 @@
 
     pincel.fillStyle = 'blue';
     pincel.beginPath();
-    pincel.arc(300, 200, 50, 0, 2 * 3.14);
+    pincel.arc(300, 200, 100, 0, 2 * 3.14);
     pincel.fill();
 
 </script>
