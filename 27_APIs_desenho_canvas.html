@@ -1,11 +1,13 @@
 <canvas width="600" height="400"></canvas>
 
 <script>
-
+    //acessando o html
     var tela = document.querySelector('canvas');
+    //pedindo um pincel no contexto 2d para desenhar
     var pincel = tela.getContext('2d');
-
+    //definir um cor válida
     pincel.fillStyle = 'lightgrey';
+    //fill é preencher e rect é retangulo. 
     pincel.fillRect(0, 0, 600, 400);
 
     pincel.fillStyle = 'green';
@@ -15,10 +17,14 @@
     pincel.fillRect(400, 0, 200, 400);
 
     pincel.fillStyle = 'yellow';
+    //começar um caminho para senhar
     pincel.beginPath();
+    //definir o primeiro ponto
     pincel.moveTo(300, 200);
+    //desenhar uma linha até
     pincel.lineTo(200, 400);
     pincel.lineTo(400, 400);
+    //pedir para o pincel preencher
     pincel.fill();
 
     pincel.fillStyle = 'blue';

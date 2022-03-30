@@ -1,10 +1,10 @@
 <meta charset="UTF-8">
 
 <input/>
-<button>Compare com o meu segredo</button>
+<button>Descubra o segredo</button>
 
 <script>
-
+    //declarando e inicializando uma array
     var segredos = [5,7,10,2,3];
 
     var input = document.querySelector("input");
@@ -13,7 +13,7 @@
     function verifica() {
 
     var achou = false;
-        // .length de um array retorna a quantidade de posições(elementos)
+        // .length(comprimento) de um array retorna a quantidade de posições(elementos)
     for(var posicao = 0; posicao < segredos.length; posicao++) {
 
         if(input.value == segredos[posicao]) {

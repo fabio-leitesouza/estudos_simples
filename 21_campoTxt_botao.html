@@ -1,16 +1,18 @@
 <meta charset="UTF-8">
 
-<input/>
-<button>Compare com o meu segredo</button>
+<input/> <!--input é uma caixa para entrada de dados no html-->
+<button>Compare com o meu segredo</button> <!--button é um botão-->
 
 <script>
     var segredo = Math.round(Math.random() * 10);
-
-    var input = document.querySelector("input");
+    /*Utilizaremos a querySelector() para inserir aquilo que está no mundo HTML na variável input. 
+    Ela receberá como parâmetro o nome da tag que desejamos utilizar, no caso "input"*/
+    var input = document.querySelector("input"); 
+        //foco no campo de texto sempre que o usuário errar o número utilizando a função input.focus()
         input.focus();
 
     function verifica() {
-
+        //Para sabermos qual o valor que está inserido na variável, utilizaremos o input.value
         if(input.value == segredo) {
 
         alert("Você ACERTOU!");
@@ -20,12 +22,15 @@
         }
 
                 input.value = "";
-                input.focus();
+                input.focus(); 
 
     }
-
+    
     var button = document.querySelector("button");
-
+    /*Para associar ao botão a execução do verifica() utilizaremos a propriedade .onclick(), em português, 
+    "on click" significa "no clicar", ou seja, queremos que a verificação seja feita ao clique*/
     button.onclick = verifica;
+    /*Sem os () da a função verifica não é executadas e sim toda a informação contida em verifica, isto é, o código, 
+    está vinculado ao onclick do botão. Assim, ele estará preparado para executar a verificação sempre que o botão for clicado.*/
 
 </script>
