@@ -3,6 +3,7 @@
 // imc = peso/(altura *altura)
 
 // var imc
+// console.log(imc)
 
 /*quando JavaScript for executado ele verifica todas as variáveis do tipo var e carregam antes. 
 Esta é a vantagem da car*/
@@ -11,13 +12,14 @@ Esta é a vantagem da car*/
 // let peso = 97
 // let altura = 1.78
 // let imc = 5
+
 // if (true){
-//     let imc = peso / (altura*altura)
+//     imc = peso /  (altura*altura)
 //     console.log(imc)
 // }
 
-// const peso = 97
-// const altura = 1.78
-// const imc = 25
-// imc = peso / (altura*altura)
-// console.log(imc)
+const peso = 97
+const altura = 1.78
+const imc = peso / (altura*altura)
+
+console.log(imc)
