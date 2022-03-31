@@ -8,3 +8,4 @@ if(idadeMatheus >= maioridade){
 }
             // condição                  // true        //false
 console.log(idadeMatheus >= maioridade ? 'pingão' : 'Kisuquinho baleinha')
+                                    //?separador das duas partes
