@@ -1,4 +1,5 @@
-const alunos = ['João ', 'Tati ', 'Andralyssa ', 'Rafael ', 'Bruna ', 'Gabriela ', 'Maria ', 'Vitos']
+const alunos = ['João ', 'Tati ', 'Andralyssa ', 'Rafael '
+, 'Bruna ', 'Gabriela ', 'Maria ', 'Vitos']
 console.log(alunos)
 
                             //do índice 0 até a metada a da array

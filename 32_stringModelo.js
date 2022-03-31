@@ -6,6 +6,6 @@ const cidadeDeNascimento = "Itajubá";
 
 //const apresentacao = "Meu nome é " + nome + ", minha idade é " + idade + " e eu nasci em " + cidadeDeNascimento;
 
-//const apresentacao = `Meu nome é ${nome}, minha idade é ${idade} e eu nasci em ${cidadeDeNascimento}`
+const apresentacao = `Meu nome é ${nome}, minha idade é ${idade} e eu nasci em ${cidadeDeNascimento}`
 
 console.log(apresentacao)
