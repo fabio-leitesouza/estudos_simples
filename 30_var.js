@@ -14,7 +14,7 @@ Esta é a vantagem da car*/
 // let imc = 5
 
 // if (true){
-//     imc = peso /  (altura*altura)
+//     let imc = peso /  (altura*altura)
 //     console.log(imc)
 // }
 
