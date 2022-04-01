@@ -9,6 +9,7 @@
     pincel.fillStyle = 'white';
     //fill é preencher e rect é retangulo. 
     pincel.fillRect(0, 0, 600, 400);
+    
 
     pincel.fillStyle = 'darkblue';
     pincel.fillRect(0, 0, 200, 400);
@@ -17,19 +18,19 @@
     pincel.fillRect(400, 0, 200, 400);
 
     pincel.fillStyle = 'yellow';
-    //começar um caminho para senhar
+     //começar um caminho para senhar
     pincel.beginPath();
     //definir o primeiro ponto
-    pincel.moveTo(300, 200);
+    pincel.moveTo(150, 300);
     //desenhar uma linha até
-    pincel.lineTo(200, 400);
-    pincel.lineTo(400, 400);
+    pincel.lineTo(300, 50);
+    pincel.lineTo(450, 300);
     //pedir para o pincel preencher
     pincel.fill();
 
-    pincel.fillStyle = 'blue';
+    pincel.fillStyle = 'magenta';
     pincel.beginPath();
-    pincel.arc(300, 200, 100, 0, 2 * 3.14);
+    pincel.arc(300, 200, 50, 0, 2 * 3.14);
     pincel.fill();
 
 </script>

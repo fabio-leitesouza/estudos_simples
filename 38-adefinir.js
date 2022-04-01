@@ -1,1 +1,0 @@
-const definindo = 90
