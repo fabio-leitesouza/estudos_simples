@@ -1,0 +1,8 @@
+git config --global user.name "maria do carmo"
+git config --global user.email "mariadocarmo@gmail.com"
+git init
+git add .
+git commit -m "inicial"
+
+git remote add origin linkgithub
+git push

@@ -10,6 +10,7 @@ function media(notas){         //acumulador e valor atual
     return soma/notas.length
 }   
 
+
 console.log(`Média é: ${media(salaManha)}`)
 
 //https://raullesteves.medium.com/javascript-entendendo-o-reduce-de-uma-vez-por-todas-c4cbaa16e380
