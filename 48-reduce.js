@@ -9,8 +9,8 @@ function media(notas){         //parameto para guardar os valore(acumulador) e v
     const soma = notas.reduce((acum, atual) => atual + acum, 0) //0 é o valor inicial. Como é soma podemos começar por zero
     return soma/notas.length
 }   
-
-
 console.log(`Média é: ${media(salaManha)}`)
+console.log(`Média é: ${media(salaTarde)}`)
+console.log(`Média é: ${media(salaNoite)}`)
 
 //https://raullesteves.medium.com/javascript-entendendo-o-reduce-de-uma-vez-por-todas-c4cbaa16e380

@@ -8,6 +8,6 @@ const aluno = {
 //acessando a informação usando notação de ponto
 console.log(`O nome do aluno é ${aluno.nome} e ele tem ${aluno.idade} anos de idade`)
 
-/*Com a função .sustring conseguimos selecionar exatamente
+/*Com a função .substring conseguimos selecionar exatamente
  qual parte da string queremos*/
 console.log(`Documento: ${aluno.cpf.substring(0,3)}`)

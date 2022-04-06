@@ -9,5 +9,6 @@ const aluno = {
 const chaves = ["nome", "idade", "cpf", "email"]
 
 console.log(aluno[chaves[0]])
+console.log(aluno["nome"])
 
 chaves.forEach(info => console.log(aluno[info]))
