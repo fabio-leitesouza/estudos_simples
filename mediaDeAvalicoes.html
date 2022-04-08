@@ -1,0 +1,29 @@
+//vamos dar comportamento e não só propriedades
+<script>
+
+
+    const filme = {
+        nome: "Rocco e seus irmãos",
+        ano: 1961,
+        tempo: "148min",
+        avaliacoes: [],
+        avaliacaoMedia: 0,
+        avaliar: function(avaliar){ 
+            this.avaliacoes.push(avaliar);
+            let soma = 0
+            this.avaliacoes.forEach(element => {
+                soma += element
+            }
+            );           
+            this.avaliacaoMedia = soma / this.avaliacoes.length
+        }
+    }
+    for(let i = 0; i < 4; i++){
+        filme.avaliar(parseFloat(prompt("Digite a avaliação")))
+    }
+
+    console.log(filme.avaliacoes)
+    
+    console.log(filme.avaliacaoMedia)
+
+</script>

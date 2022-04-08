@@ -1,0 +1,3 @@
+const arr = [5, 4, 3]
+arr.__proto__
+//A propriedade proto guarda as definições de todo array que criamos no JavaScript, é como se fosse uma base, um modelo, que o JavaScript traz para dentro de tudo que criamos, sejam arrays, números, objetos. Ele cria junto com as nossas propriedades ou com os nossos arrays métodos associados a ele.     

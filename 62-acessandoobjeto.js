@@ -22,7 +22,8 @@ const aluno = {
 }
 
 const verificaParentes = (obj) => {
-    const parenAluno = Object.keys(obj);
+    const parenAluno = Object.keys(obj); //retorna uma array com todas as keys(chaves)
+    //como é uma array podemos usar métodos de array
     if(parenAluno.includes("parentes")){
         console.log(`Que bom que vc tem parentes ${obj.nome}
         `);
@@ -31,7 +32,7 @@ const verificaParentes = (obj) => {
 
 verificaParentes(aluno)
 
-console.log(Object.values(aluno))
+console.log(Object.values(aluno)) //pega os valores de um objeto em uma array
 
-console.log(Object.entries(aluno))
+console.log(Object.entries(aluno)) //traz uma array de arrays com o conjunto de chaves e valores 
 
