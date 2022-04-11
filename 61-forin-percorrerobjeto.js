@@ -26,12 +26,12 @@ for(let info in aluno){
     
     if(typeof aluno[info] === "object" || typeof aluno[info] === "function"){
         continue
+        
     }else{
         consulta += `
-        ${info} -> ${aluno[info]} \n
+        ${info} =+=-> ${aluno[info]} \n
         `
     }
-
 }
 
 console.log(consulta)

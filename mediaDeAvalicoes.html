@@ -8,7 +8,13 @@
         tempo: "148min",
         avaliacoes: [],
         avaliacaoMedia: 0,
-        avaliar: function(avaliar){ 
+        avaliar: function(){
+            let avaliar = 0
+            avaliar = Number(prompt("Digite a avaliação"))
+            while(avaliar < 0 || avaliar> 10){
+                alert('Digite uma nota de zero a 10');
+                let avaliar = Number(prompt("Digite a avaliação"))
+            } 
             this.avaliacoes.push(avaliar);
             let soma = 0
             this.avaliacoes.forEach(element => {
@@ -17,13 +23,14 @@
             );           
             this.avaliacaoMedia = soma / this.avaliacoes.length
         }
+        
     }
     for(let i = 0; i < 4; i++){
-        filme.avaliar(parseFloat(prompt("Digite a avaliação")))
+        filme.avaliar()
     }
 
     console.log(filme.avaliacoes)
     
-    console.log(filme.avaliacaoMedia)
+    document.write(filme.avaliacaoMedia)
 
 </script>
