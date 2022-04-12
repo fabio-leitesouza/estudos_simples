@@ -3,8 +3,8 @@ function Cliente (nome, cpf, email, saldo) {
     this.cpf = cpf
     this.email = email
     this.saldo = saldo
-     this.depositar = function(valor){
-      this.saldo += valor
+    this.depositar = function(valor){
+    this.saldo += valor
     }
    }
    const souza = new Cliente("Souza", "12312312312", "souza@email.com", 100)
@@ -14,7 +14,7 @@ function Cliente (nome, cpf, email, saldo) {
     this.saldoPoup = saldoPoup
    }
    const silva = new ClientePoupanca("Silva", "12312312312", "silva@email.com", 100, 200)
-
+        //adicionar ao protótipo a função depositarPoup
    ClientePoupanca.prototype.depositarPoup = function(valor){
     this.saldoPoup += valor
    }
