@@ -1,4 +1,4 @@
-function filme(nome, lancamento, genero, notas){
+function Filme(nome, lancamento, genero, notas){
     this.nome = nome
     this.lancamento = lancamento
     this.genero = genero
@@ -8,7 +8,7 @@ function filme(nome, lancamento, genero, notas){
     }
 }
 //usamos a palavra new(palavra chave) para dizer que  estamos utilizando a partir da nossa função filme, estamos criando um new, criando um novo filme, chamamos isso de instância, então a nossa const house é uma nova instância de filme criado a partir da nossa função construtora.
-const house = new filme("House", "1977", "Terror", [])
+const house = new Filme("House", "1977", "Terror", [])
 
 console.log(house)
 
